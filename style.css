@@ -4,7 +4,8 @@
 }
 body{
   width: auto;
-  height: 100vh;
+  height: auto;
+  min-height: 100vh;
 }
 ul {
   list-style: none;
@@ -19,5 +20,13 @@ div{
   width: 80%;
   margin: auto;
   height: inherit;
+  min-height: inherit;
   background-color: aliceblue;
+  padding: 20px;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
 }
