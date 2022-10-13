@@ -3,8 +3,21 @@
   padding: 0;
 }
 body{
+  width: auto;
+  height: 100vh;
+}
+ul {
+  list-style: none;
+  margin-top: 20px;
+  color: blue;
+}
+div{
+  color: red;
+}
+
+#container {
+  width: 80%;
+  margin: auto;
+  height: inherit;
   background-color: aliceblue;
 }
- div{
-  color: red;
- }
